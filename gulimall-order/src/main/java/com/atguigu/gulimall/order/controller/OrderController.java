@@ -81,4 +81,14 @@ public class OrderController {
         return R.ok();
     }
 
+
+    /**
+     * 根据条件获取订单
+     */
+    @RequestMapping("/getByStatus")
+    public R getByStatus(){
+
+        return R.ok();
+    }
+
 }
